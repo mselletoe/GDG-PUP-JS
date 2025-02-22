@@ -9,12 +9,19 @@ for (let i = 1; i <= 10; i++) {
 let hobbies = [
   "Reading", // Example hobby
   "Writing", // Example hobby
-  // Add more hobbies
+  "Singing",
+  "Dancing",
+  "Watching Series",
+  "Eating",
+  "Sleeping",
+  "Playing Video Games with Friends",
+  "Chatting with Friends",
+  "Drawing",
 ];
 
 let index = 0;
 while (index < hobbies.length) {
   // Log each hobby and see if it works in the console
-
+  console.log(`${index + 1}: ${hobbies[index]}`);
   index++;
 }
